@@ -9,7 +9,7 @@ Application, CommandHandler, CallbackQueryHandler,
 ContextTypes, MessageHandler, filters
 )
 
-TOKEN = os.environ.get(“BOT_TOKEN”)
+TOKEN = os.environ.get("BOT_TOKEN")
 DATA_FILE = “users.json”
 
 CHECKS = [
